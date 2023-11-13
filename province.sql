@@ -1,5 +1,5 @@
 create table `province` (
-    `name` varchar(255) character set utf8mb4 collate utf8mb4_unicode_ci not null primary key,
+    `name` varchar(255) character set utf8mb4 collate utf8mb4_unicode_ci not null,
     primary key(`name`)
 ) engine=innodb default charset=utf8mb4 collate=utf8mb4_unicode_ci;
 
